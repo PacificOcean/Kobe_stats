@@ -1,0 +1,21 @@
+# -*- coding: utf-8 -*-
+# 基本モジュール
+import pandas as pd
+import numpy as np
+import os
+import sys
+from tqdm import tqdm
+
+import time
+import datetime
+import dateutil.parser #変数の時間型への変換で使用
+from dateutil.relativedelta import relativedelta
+
+from sklearn.linear_model import LinearRegression
+from sklearn.preprocessing import PolynomialFeatures
+from sklearn.pipeline import Pipeline
+
+import matplotlib.pylab as plt
+from matplotlib.font_manager import FontProperties
+fp = FontProperties(fname='meiryo.ttc')
+%matplotlib inline
